@@ -1,0 +1,71 @@
+[
+    {
+        "user": {
+            "businessPhones": [],
+            "displayName": "frank",
+            "givenName": null,
+            "jobTitle": null,
+            "mail": null,
+            "mobilePhone": null,
+            "officeLocation": null,
+            "preferredLanguage": null,
+            "surname": null,
+            "userPrincipalName": "frank@pauharri.onmicrosoft.us",
+            "id": "ea43304b-8136-4ec4-a32f-9e473223db33"
+        },
+        "EntraRoleAssignments": {
+            "id": "3i5W0tt0fkWntlROI267YUswQ-o2gcROoy-eRzIj2zM-1",
+            "principalId": "ea43304b-8136-4ec4-a32f-9e473223db33",
+            "resourceScope": "/",
+            "directoryScopeId": "/",
+            "roleDefinitionId": "d2562ede-74db-457e-a7b6-544e236ebb61"
+        },
+        "GroupMembership": [
+            {
+                "@odata.type": "#microsoft.graph.group",
+                "id": "950adb17-9365-4960-9833-5ac4466b313e",
+                "deletedDateTime": null,
+                "classification": null,
+                "createdDateTime": "2024-12-30T17:07:05Z",
+                "creationOptions": [],
+                "description": "testGroup0",
+                "displayName": "testGroup0",
+                "expirationDateTime": null,
+                "groupTypes": [],
+                "isAssignableToRole": null,
+                "mail": null,
+                "mailEnabled": false,
+                "mailNickname": "1ff1ccbd-9",
+                "membershipRule": null,
+                "membershipRuleProcessingState": null,
+                "onPremisesDomainName": null,
+                "onPremisesLastSyncDateTime": null,
+                "onPremisesNetBiosName": null,
+                "onPremisesSamAccountName": null,
+                "onPremisesSecurityIdentifier": null,
+                "onPremisesSyncEnabled": null,
+                "preferredDataLocation": null,
+                "preferredLanguage": null,
+                "proxyAddresses": [],
+                "renewedDateTime": "2024-12-30T17:07:05Z",
+                "resourceBehaviorOptions": [],
+                "resourceProvisioningOptions": [],
+                "securityEnabled": true,
+                "securityIdentifier": "S-1-12-8-2500516631-1231065957-3294245784-1043426118",
+                "theme": null,
+                "uniqueName": null,
+                "visibility": null,
+                "serviceProvisioningErrors": [],
+                "onPremisesProvisioningErrors": []
+            },
+            {
+                "@odata.type": "#microsoft.graph.directoryRole",
+                "id": "69fc9c09-918b-43d4-9387-f3898e38d91f",
+                "deletedDateTime": null,
+                "description": "Manage all aspects of Microsoft 365 Copilot and AI-related enterprise services in Microsoft 365.",
+                "displayName": "AI Administrator",
+                "roleTemplateId": "d2562ede-74db-457e-a7b6-544e236ebb61"
+            }
+        ]
+    }
+]
